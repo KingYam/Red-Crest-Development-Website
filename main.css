@@ -19,7 +19,7 @@ html, body
 div#top-half
 {
 	position: relative;
-	background-color: #990019;
+	background-color: rgb(174,47,46);
 	color: white;
 	height: 100%;
     /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 10%, 0 234%);
