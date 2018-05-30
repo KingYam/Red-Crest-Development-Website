@@ -74,21 +74,23 @@ a
 	text-decoration: none;
 }
 
+p
+{
+	font-size: 1.17em;
+}
+
 #title
 {
 	font-family: 'Comfortaa', cursive;
-	font-size: 4em;
-    padding-bottom: 42px;
-    
+	font-size: 4em;    
 }
 #subtitle
 {
-	padding-bottom: 10px;
+	padding-bottom: 42px;
 }
-#inner-content
+#inner-content > p
 {
-
-	
+	margin-bottom: 0px;	
 }
 #logo
 {
