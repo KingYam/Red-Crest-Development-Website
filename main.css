@@ -12,14 +12,14 @@ html, body
 {
 	margin: 0;
 	height: 100%;
-	background-color: white;
+	background-color: #5c1516;
 	font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 div#top-half
 {
 	position: relative;
-	background-color: rgb(174,47,46);
+	background-color: #ae2e2e;
 	color: white;
 	height: 100%;
     /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 10%, 0 234%);
@@ -37,6 +37,16 @@ div#top-half
          -o-animation: fadein 2.5s; /* Opera < 12.1 */
             animation: fadein 2.5s;
 	 
+}
+
+.icons {
+    margin-top:30px;
+    color: white;
+    font-size: 2em; 
+}
+
+.fab {
+    padding: 8px;
 }
 
 @keyframes fadein {
@@ -110,22 +120,24 @@ div#top-half
     animation-fill-mode: forwards;
     animation-delay: 0.2s;
 }
-
 a
 {
 	color: white;
 	text-decoration: none;
+    font-size: 1.17em
 }
-
 p
 {
-	font-size: 1.17em;
+    font-size: 1.17em
+
 }
 
 #title
 {
 	font-family: 'Comfortaa', cursive;
-	font-size: 4em;    
+	font-size: 4em;
+    
+    
 }
 #subtitle
 {
@@ -133,9 +145,10 @@ p
 }
 #inner-content > p
 {
-	margin-bottom: 0px;
-	margin-top: 0px;	
-	padding-top: 30px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    margin-top: 0px;
+	
 }
 #logo
 {
