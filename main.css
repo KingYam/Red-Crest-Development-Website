@@ -19,12 +19,31 @@ html, body
 div#top-half
 {
 	position: relative;
-	background-color: #ae2e2e;
-	color: white;
+	background: linear-gradient(90deg, #ae2e2e, #5c1516);
+    background-size: 400% 400%;
+    color: white;
 	height: 100%;
-    /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 10%, 0 234%);
-    clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);*/
+    -webkit-animation: AnimationName 8s ease infinite;
+    -moz-animation: AnimationName 8s ease infinite;
+    animation: AnimationName 8s ease infinite;
 }
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 #content{
 	margin: 0;
     position: absolute;
