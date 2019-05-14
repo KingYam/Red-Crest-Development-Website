@@ -7,9 +7,14 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
 	<title>Red Crest Development</title>
 	<link rel="stylesheet" href="main.css" />
+	<script
+              src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+              integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+              crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=0.7">
 </head>
 <body>
+	<div class="cursor"></div>
 	<div id="top-half">
 		<div id="content">
 			<img id="logo" src="RCD_Logo_04_edit.png"/>
@@ -27,4 +32,12 @@
 		</div>
 	</div>
 </body>
+<script>
+	$(document).on('mousemove', function(e){
+    $('.cursor').css({
+       left:  e.pageX,
+       top:   e.pageY
+    });
+});
+</script>
 </html>
